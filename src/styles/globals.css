@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: 'Gideon Roman'
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #ffeed9;
+}

@@ -1,0 +1,49 @@
+.cats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px #b9aaaa;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #917a60;
+    width: 250px;
+    transition: 0.5s;
+    
+    }
+    
+    .cats:hover{
+        background-color: black;
+        transform: scale(1.1);
+    }
+    
+    .cats .image{
+        width: 200px;
+        height: 200px;
+        border: 5px solid #ff7300;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .cats .image .catimg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    
+    .cats .content{
+     margin-top: 10px;
+    }
+    
+    .cats .content h1{
+     color: #ffffff;
+     text-align: center;
+    }
+    
+    
+    
