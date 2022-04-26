@@ -10,7 +10,7 @@ export default function Navbar() {
             <div>
                 <Link href="/">
                     <a>
-                        <Image src="/images/Cat.png" width="50px" height="50px" alt="cat icon" />
+                        <Image src="/images/cat.png" width="50px" height="50px" alt="cat icon"/>
                     </a>
                 </Link>
             </div>
